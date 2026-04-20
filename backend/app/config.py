@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     TWITTER_BEARER: str = ''
     FACTIVA_API_KEY: str = ''
     LEXISNEXIS_API_KEY: str = ''
-    GEMINI_API_KEY: str = 'AIzaSyA-XEPLBWgFbveEaMBjH7mVk6ktspOVryY'
+    GEMINI_API_KEY: str = ''
 
     model_config = SettingsConfigDict(env_file=str(BASE_DIR / '.env'), extra='ignore')
 
