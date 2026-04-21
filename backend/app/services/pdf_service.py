@@ -31,7 +31,7 @@ MONGODB_URI = os.getenv("MONGODB_URI", "mongodb+srv://thanu582:Thanu%402004@heal
 MONGODB_DB = os.getenv("MONGO_DB_NAME", "News")
 MONGODB_COLLECTION = os.getenv("MONGO_COLLECTION_NAME", "PoliticalNews")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyA-XEPLBWgFbveEaMBjH7mVk6ktspOVryY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3-flash-preview")
 
 
